@@ -12,6 +12,10 @@ class TransactionAPI {
   addTransaction(transaction) {
     
   }
+
+  updateTransaction(transaction) {
+    
+  }
 }
 
 const instance = new TransactionAPI();

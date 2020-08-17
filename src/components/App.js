@@ -1,5 +1,6 @@
 import React from 'react';
 import Account from './Account';
+import './style.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -9,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="App">
-        <Account />
+        <Account headers={["date", "payee", "category", "amount", "memo", "isCleared"]}/>
       </div>
     );
   }
