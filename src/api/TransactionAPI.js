@@ -5,7 +5,7 @@ class TransactionAPI {
 
   }
 
-  getTransactions() {
+  getTransactions(accountId) {
     return mock_transactions;
   }
 
