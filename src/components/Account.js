@@ -22,7 +22,6 @@ class Account extends React.Component {
     };
 
     this.handleUpdateTransaction = this.handleUpdateTransaction.bind(this);
-    this.handleOnRowClick = this.handleOnRowClick.bind(this);
   }
 
   handleUpdateTransaction(transaction) {

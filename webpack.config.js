@@ -6,9 +6,11 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   devServer: {
+    historyApiFallback: true,
     contentBase: path.join(__dirname, 'public')
   },
   module: {
