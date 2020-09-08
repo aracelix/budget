@@ -1,6 +1,9 @@
 class AccountAPI {
   getAccounts() {
-
+    return [{
+      id: 303,
+      name: "Bank of America"
+    }];
   }
 
 }

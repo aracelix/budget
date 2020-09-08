@@ -1,7 +1,26 @@
 * {
-  color: red;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.isEditing {
-  background-color: blue;
+.grid-container {
+  display: grid;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: red;
+  height: 3em;
+  padding: 1em;
+}
+
+header > .logo {
+  margin-right: auto;
+}
+
+table {
+  width: 100%;
 }
