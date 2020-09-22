@@ -1,7 +1,7 @@
 import Table from ".";
 
 class TableUtil {
-
+  
 }
 
 const instance = new TableUtil();
