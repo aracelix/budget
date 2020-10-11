@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const transactions = require('./routes/transactions');
+const MongoClient = require('mongodb').MongoClient;
 
 //Example of importing a router that groups subroutes together
 app.use('/transactions', transactions);
